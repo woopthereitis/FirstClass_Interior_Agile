@@ -7,5 +7,3 @@ Carol - Designer
 Bailey - Developer  
 Angel - Assistant Developer  
 Arthur - Tester
-
-test upload successful

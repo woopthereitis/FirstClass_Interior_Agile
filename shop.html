@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>class IS</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <i class="fa-solid fa-plug" style="color:#dddddd"></i>
+      <a class="navbar-brand" href="index.html">TechConnect</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="display-4 text-center text-decoration-underline my-4">Shop</h1>
+  
+  <div class="container">
+    <h1 class="display-6 text-center my-4" id="phones">Phones</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Nokia G20 Smartphone</h4>
+                <h6 class="card-subtitle text-muted">$273.99</h6>
+              </div>
+              <img src="images/phone1.jpg" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">4GB+64GB - Dark Blue - 48MP Quad Camera, 6.5" HD+ Display, 8MP Selfie Camera, Up to 3-day battery life, OZO Spatial Audio, Helio G35</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="1"
+                data-product-image="images/phone1.jpg">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">Samsung Galaxy A54</h4>
+              <h6 class="card-subtitle text-muted">$799.99</h6>
+            </div>
+            <img src="images/phone2.jpg" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">5G (2023) Dual SIM Smartphone 8GB+128GB - Black (Wall Charger sold separately) - 6.4'' 120Hz Super AMOLED Display,50MP Camera with OIS,IP67 Water Resistant, Exynos 1380 processor , NFC, 2 Year Warranty</p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="2"
+              data-product-image="images/phone2.jpg">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">OPPO Find X5 Lite</h4>
+            <h6 class="card-subtitle text-muted">$799.99</h6>
+          </div>
+          <img src="images/phone3.jpg" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">5G Dual SIM Smartphone 8GB+256GB - Startrails Blue - 3 Year Warranty, 65W SUPERVOOC Charging, 6.43" FHD Screen, 90Hz Refresh Rate, MediaTek Dimensity 900, DSLR-Like Portraits</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="3"
+            data-product-image="images/phone3.jpg">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+
+    <h1 class="display-6 text-center my-4" id="computers">Computers</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Screwdriver</h4>
+                <h6 class="card-subtitle text-muted">$69.99</h6>
+              </div>
+              <img src="images/screwdriver.webp" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">At long last, our ratcheting multi-bit screwdriver has arrived.</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="4"
+                data-product-image="images/screwdriver.webp">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">Lian Li Lancool 216 ATX MidTower Gaming Case</h4>
+              <h6 class="card-subtitle text-muted">$148.99</h6>
+            </div>
+            <img src="images/tower.jpg" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">Tempered Glass, 2x160mm ARGB Fans, 1x140mm Rear Fan Included, CPU Cooling Support 180.5mm, GPU Support 392mm, 360mm Rad Support, 7x PCI Slot (1x120mm PCIe Fan Bracket), Front I/O: 2xUSB, 1xType C</p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="5"
+              data-product-image="images/tower.jpg">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">120mm Deepcool RF120 FS Case Fan</h4>
+            <h6 class="card-subtitle text-muted">$16.00</h6>
+          </div>
+          <img src="images/fan.jpeg" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">6 built-in high brightness LEDs. With the all-new purple/blue/orange lighting combination, you won’t need complicated control settings. Simply plug in the power on and enjoy the mesmerizing visual experience.</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="6"
+            data-product-image="images/fan.jpe  g">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+
+    <h1 class="display-6 text-center my-4" id="gaming">Gaming</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Sticklocks</h4>
+                <h6 class="card-subtitle text-muted">$14.99</h6>
+              </div>
+              <img src="images/sticklock.webp" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">Sticklocks are designed to reduce the horizontal force applied to your joysticks when traveling with a controller or console.</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="7"
+                data-product-image="images/sticklock.webp">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">Water Bottle</h4>
+              <h6 class="card-subtitle text-muted">$29.99</h6>
+            </div>
+            <img src="images/water-bottle.webp" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">Our first ever collab collection has arrived! And there's no better way to kick off a new project like this than with an absolute pillar of the online PC community, PCMR.</p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="8"
+              data-product-image="images/water-bottle.webp">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">Desk Pad</h4>
+            <h6 class="card-subtitle text-muted">$29.99</h6>
+          </div>
+          <img src="images/desk-pad.webp" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">The LTT Northern Lights desk pad features a dynamic and colorful design on the left, and a clear mousing area on the right.</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="9"
+            data-product-image="images/desk-pad.webp">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+
+    <h1 class="display-6 text-center my-4" id="watches">Smart Watches</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Kogan Pulse+ II Smart Watch (Rose Gold)</h4>
+                <h6 class="card-subtitle text-muted">$76.99</h6>
+              </div>
+              <img src="images/watch1.webp" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">Packed full of features to monitor and improve your health and fitness, as well as keep you connected with call, SMS and social notifications, this smart watch will make you rethink wellbeing.</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="10"
+                data-product-image="images/watch1.webp">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">Apple Watch Series 5 40MM GPS Gold - Excellent - Refurbished</h4>
+              <h6 class="card-subtitle text-muted">$369</h6>
+            </div>
+            <img src="images/watch2.webp" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">Apple Watch Series 5 has a display that’s always on, showing the time and important information — no need to raise your wrist. It helps you navigate with the built-in compass. Monitors your heart rate. Tracks your workouts and activity. </p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="11"
+              data-product-image="images/watch2.webp">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">iConnect by Timex Premium Active Square 36mm Smartwatch</h4>
+            <h6 class="card-subtitle text-muted">$59.99</h6>
+          </div>
+          <img src="images/watch3.webp" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">Goals are easier to reach than ever with features like heart-rate tracking, sleep and activity tracking and more. The iConnect by Timex Premium Active Square 36mm Smartwatch is where fitness meets fashion.</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="12"
+            data-product-image="images/watch3.webp">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+
+    <h1 class="display-6 text-center my-4" id="photos">Photo & Video</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Kogan HD 1080P Car Dash Camera</h4>
+                <h6 class="card-subtitle text-muted">$82.99</h6>
+              </div>
+              <img src="images/camera1.webp" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">This dash camera is perfect for recording your adventures on the road. It is full HD 1080p and has voice interaction so you can easily record while driving.</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="13"
+                data-product-image="images/camera1.webp">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">Digital Camera 1080p</h4>
+              <h6 class="card-subtitle text-muted">$46.54</h6>
+            </div>
+            <img src="images/camera2.webp" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">Video Camera, 16X HD 1080×720 2inch TFT LCD Sceen Digital Video Camera Camcorder Supports Photography and Video for Cycling, Climbing and Running.The Best Gift for Birthday, Holiday, Toy</p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="14"
+              data-product-image="images/camera2.webp">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">Nikon D850</h4>
+            <h6 class="card-subtitle text-muted">$3864</h6>
+          </div>
+          <img src="images/camera3.webp" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">The Nikon D850 is a multimedia DSLR that brings together robust stills capabilities along with apt movie and time-lapse recording.</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="15"
+            data-product-image="images/camera3.webp">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+
+    <h1 class="display-6 text-center my-4" id="tablets">Tablets</h1>
+    <div class="row justify-content-center align-items-start my-5">
+        <div class="col-sm-3">
+            <div class="card border-primary mb-3">
+              <div class="card-header">
+                <h4 class="card-title">Apple iPad Pro 11" </h4>
+                <h6 class="card-subtitle text-muted">$3487.05</h6>
+              </div>
+              <img src="images/tablet1.webp" class="d-block user-select-none p-3">
+              <div class="card-body">
+                <p class="card-text">Apple iPad Pro 11” Wi-Fi + Cellular 2TB – Silver (MHWF3X/A)</p>
+              </div>
+                <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+                data-product-id="16"
+                data-product-image="images/tablet1.webp">               
+                  Add to Cart
+                </button>
+            </div>               
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-primary mb-3">
+            <div class="card-header">
+              <h4 class="card-title">LCD Writing Tablet for Kids</h4>
+              <h6 class="card-subtitle text-muted">$55.19</h6>
+            </div>
+            <img src="images/tablet2.webp" class="d-block user-select-none p-3">
+            <div class="card-body">
+              <p class="card-text">LCD Writing Tablet for Kids 16 inches Colourful Screen Drawing Tablet Erasable Doodle Board Educational for Girls Age 3-6</p>
+            </div>
+              <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+              data-product-id="17"
+              data-product-image="images/tablet2.webp">               
+                Add to Cart
+              </button>
+          </div>               
+      </div>
+      <div class="col-sm-3">
+        <div class="card border-primary mb-3">
+          <div class="card-header">
+            <h4 class="card-title">Blackview TAB 7 Android 11</h4>
+            <h6 class="card-subtitle text-muted">$259.89</h6>
+          </div>
+          <img src="images/tablet3.webp" class="d-block user-select-none p-3">
+          <div class="card-body">
+            <p class="card-text">Experience a sleek and powerful tablet with the Blackview Tab 7-T310. Equipped with 3GB of dynamic RAM memory, this tablet offers the same performance as 5GB RAM thanks to new compression technology.</p>
+          </div>
+            <button class="btn btn-primary btn-sm justify-content-center add-to-cart-btn p-2 rounded-top-0"
+            data-product-id="18"
+            data-product-image="images/tablet3.webp">               
+              Add to Cart
+            </button>
+        </div>               
+    </div>
+</div> <!--items container-->
+
+
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <h2 class="text-white">Shopping Cart</h2>
+          <div id="cart-section" class="card mb-4">
+            <!-- Cart items will be added here dynamically -->
+          </div>
+          <div class="card mb-5">
+            <div class="card-body p-4">
+              <div class="float-end">
+                <p class="mb-0 me-5 d-flex align-items-center">
+                  <span class="small text-muted me-2">Order total:</span> <span class="lead fw-normal" id="cart-total">$0</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+  // Create an empty array to represent the cart
+  let cart = [];
+
+  // Function to handle adding items to the cart
+  function addToCart(productId, productName, productPrice, productImage) {
+    cart.push({
+      id: productId,
+      name: productName,
+      price: productPrice,
+      image: productImage,
+    });
+    updateCartUI();
+  }
+
+  // Function to update the cart section in the UI
+  function updateCartUI() {
+      const cartSection = document.querySelector("#cart-section");
+      cartSection.innerHTML = ""; // Clear the existing cart items
+
+      let total = 0;
+      for (const item of cart) {
+      total += item.price;
+       //Adds items to cart section
+      cartSection.innerHTML += `
+      <hr>
+          <div class="row align-items-center">
+          <div class="col-md-2 d-flex justify-content-center">
+              <div>
+              <img src="${item.image}" alt="Product Image" style="width: 100px; height: 100px;">
+              </div>
+          </div>
+          <div class="col-md-2 d-flex justify-content-start">
+              <div>
+              <p class="small text-muted p-2">Name</p>
+              <p class="lead fw-normal">${item.name}</p>
+              </div>
+          </div>
+          <div class="col-md-2 d-flex justify-content-start">
+              <div>
+              <p class="small text-muted p-2">Price</p>
+              <p class="lead fw-normal">$${item.price}</p>
+              </div>
+          </div>
+        </div>
+      `;
+      }
+      // Update the total price
+      const totalSection = document.querySelector("#cart-total");
+      totalSection.textContent = `$${total}`;
+  }
+      
+  // Attach click event listeners to the "Add to cart" buttons
+  const addToCartButtons = document.querySelectorAll(".add-to-cart-btn");
+  addToCartButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const productId = button.getAttribute("data-product-id");
+      const productName = button.parentNode.querySelector(".card-title").textContent;
+      const productPrice = parseFloat(button.parentNode.querySelector(".card-subtitle").textContent.replace("$", ""));
+      const productImage = button.getAttribute("data-product-image"); // Get the product image URL
+      addToCart(productId, productName, productPrice, productImage);
+    });
+  });
+</script>
+<!--jscode-->
+
+
+
+  <footer class="text-center text-lg-start bg-primary-subtle text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+        <a href="https://www.facebook.com" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.discord.com/" class="me-4 text-reset text-decoration-none">
+            <i class="fab fa-discord"></i>
+        </a>
+        </div>
+    </section>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9232997719.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

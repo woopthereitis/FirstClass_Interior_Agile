@@ -2,10 +2,7 @@ This project is to create an e-commerce website for Smith Private Limited, an el
 The purpose this project is to fulfil the needs of Smith Private Limited. That is, improving the user experience and accessability, leading to increased sales for Smith Private Limited  
 
 Created by:  
-Anjolina - Project Manager  
-Carol - Designer  
-Bailey - Developer  
-Angel - Assistant Developer  
-Arthur - Tester
-
-testing fr this time
+Anjolina - Designer  
+Carol - Tester 
+Bailey - Project Leader/Scrum Master
+Arthur - Developer

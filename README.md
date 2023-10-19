@@ -10,3 +10,5 @@ Carol - Tester
 Bailey - Project Leader/Scrum Master
 
 Arthur - Developer
+
+Angel - Assistant Dev
